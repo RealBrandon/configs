@@ -32,6 +32,7 @@ alias vim='nvim'
 alias open='xdg-open'
 alias trash='send2trash -v'
 alias docker='sudo docker'
+alias gcc='gcc -Wall -Wextra -Wformat'
 
 # Force tmux to use 256 colors
 # alias tmux='tmux -2'
