@@ -25,11 +25,15 @@ HISTFILESIZE=2000
 export MERGE='vimdiff'
 
 # User specific aliases and functions
-if [ -d ~/.bashrc.d ]; then
-    for rc in ~/.bashrc.d/*; do
-        if [ -f "$rc" ]; then
-            . "$rc"
-        fi
-    done
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
 fi
-unset rc
+
+# if [ -d ~/.bashrc.d ]; then
+#     for rc in ~/.bashrc.d/*; do
+#         if [ -f "$rc" ]; then
+#             . "$rc"
+#         fi
+#     done
+# fi
+# unset rc

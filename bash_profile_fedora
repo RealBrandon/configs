@@ -38,6 +38,8 @@ export PATH
 # Set minicom startup options.
 export MINICOM='-c on'
 
+export EDITOR='/usr/bin/nvim'
+
 # Initialise programs.
 # This must be at the end of the Bash initialisation process.
 eval "$(zoxide init bash --cmd cd)"
