@@ -1,10 +1,14 @@
 theme = "iTerm2 Default"
-background-opacity = 0.75
+background-opacity = 1.00
 font-family = "CaskaydiaCove Nerd Font Mono"
 font-size = 13
 bold-is-bright = true
+font-feature = -calt
 
 command = "/bin/bash --login"
+shell-integration-features = no-cursor
+term = xterm-256color
+maximize = true
 
 keybind = ctrl+alt+h=new_split:left
 keybind = ctrl+alt+j=new_split:down
